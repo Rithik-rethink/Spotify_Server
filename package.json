@@ -17,6 +17,10 @@
     "express": "^4.17.1",
     "js-cookie": "^2.2.1",
     "jsonwebtoken": "^8.5.1",
-    "mongoose": "^5.10.9"
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.9",
+    "multer": "^1.4.2",
+    "soundcloud-scraper": "^3.0.3",
+    "spotify-dl": "^0.4.4"
   }
 }

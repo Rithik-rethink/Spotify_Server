@@ -10,7 +10,6 @@ module.exports = function(req,res,next){
     }
     else {
     const token = req.header('Cookie').split(';')[0].split('=')[1];
-    // console.log(token);
     if(!token){
         const response = new Object();
         response.message = "Access Denied";
