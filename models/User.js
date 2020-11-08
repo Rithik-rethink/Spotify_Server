@@ -19,9 +19,20 @@ const user = new mongoose.Schema({
         min :6,
         max : 1024
     },
-    date : {
-        type : Date,
-        default : Date.now()
+    img : {
+        type : String,
+    },
+    img_name : {
+        type : String,
+    },
+    img_artist : {
+        type : String
+    },
+    songUri : {
+        type : String
+    },
+    songId : {
+        type : String
     }
 });
 
